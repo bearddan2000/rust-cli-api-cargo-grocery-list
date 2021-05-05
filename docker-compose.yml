@@ -1,0 +1,6 @@
+version: '3'
+services:
+  rust-srv:
+    build: rust-srv
+    ports:
+      - 80:3030
